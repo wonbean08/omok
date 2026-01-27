@@ -1,9 +1,6 @@
-﻿# <img width="123" height="38" alt="logo" src="https://github.com/user-attachments/assets/af863b77-e603-4838-a6b2-cb76f028a03d" />  
 
-## 팀원 소개
-#### 팀명: LIMITREE
-#### 프로젝트명: 온라인 가구 쇼핑 플랫폼
-#### 팀원 소개: 손보연(팀장) 김선혁(부팀장) 장재혁(헬스남) 박성섭(섭섭이) 정유한(무한) 김연준(묵묵이) 박현우(따돌림)  
+#### 프로젝트명: 오목게임
+#### 개발자: 조원빈  
 
 ---
 
@@ -22,18 +19,18 @@
 ---
 
 ## 프로젝트 소개
-**Limitree**는 쇼핑몰의 핵심 기능(상품/카테고리/장바구니/주문/리뷰/회원/위시리스트/비교)을 구현한 팀 프로젝트입니다.  
-프론트는 React 기반으로 UX를 구성하고, 백엔드는 Spring Boot REST API로 도메인별 책임을 분리했습니다.
+1학년 첫 프로젝트로 자바 - Swing을 이용하여 온라인 오목게임을 구헌하였습니다.
 
 ---
 
 ## 프로젝트 설계
 Limitree (팀 프로젝트)
-1. 요구사항 명세서 
+1. 요구사항 명세서
+2. 
+<img width="500" height="1024" alt="요구사항명세서" src="https://github.com/user-attachments/assets/4678ed68-5b21-4dc0-a938-024846f8663b" />
 
-<img width="500"  alt="요구사항" src="https://github.com/user-attachments/assets/1bcbe91b-4f7c-4289-a2d5-1cafbd993c6b" />
 
-2. 화면 정의서 (Wireframe / 화면설계서)
+3. 화면 정의서 (Wireframe / 화면설계서)
 
 <img  height="100" alt="6번" src="https://github.com/user-attachments/assets/3b461c12-ed61-4291-a247-cd52ebbe2c13" />             <img height="100" alt="7번" src="https://github.com/user-attachments/assets/3a064bc8-1611-4384-a825-ddcf1b7a9a5f" />             <img height="100" alt="8번" src="https://github.com/user-attachments/assets/fe7bbaf3-6efe-4c63-85c1-9cb332dd2c95" />
 
