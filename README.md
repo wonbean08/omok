@@ -26,11 +26,11 @@
 ## 프로젝트 설계
 오목게임 (개인 프로젝트)
 1. 요구사항 명세서
-2. 
+   
 <img width="500" height="1024" alt="요구사항명세서" src="https://github.com/user-attachments/assets/4678ed68-5b21-4dc0-a938-024846f8663b" />
 
 
-3. 화면 정의서 (Wireframe / 화면설계서)
+2. 화면 정의서 (Wireframe / 화면설계서)
 
 <img  height="100" alt="6번" src="https://github.com/user-attachments/assets/3b461c12-ed61-4291-a247-cd52ebbe2c13" />             <img height="100" alt="7번" src="https://github.com/user-attachments/assets/3a064bc8-1611-4384-a825-ddcf1b7a9a5f" />             <img height="100" alt="8번" src="https://github.com/user-attachments/assets/fe7bbaf3-6efe-4c63-85c1-9cb332dd2c95" />
 
