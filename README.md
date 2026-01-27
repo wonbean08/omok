@@ -24,7 +24,7 @@
 ---
 
 ## 프로젝트 설계
-Limitree (팀 프로젝트)
+오목게임 (개인 프로젝트)
 1. 요구사항 명세서
 2. 
 <img width="500" height="1024" alt="요구사항명세서" src="https://github.com/user-attachments/assets/4678ed68-5b21-4dc0-a938-024846f8663b" />
