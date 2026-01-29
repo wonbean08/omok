@@ -111,22 +111,18 @@
 
 
 ## 실행 방법
-> 로컬 개발 기준 (환경에 따라 포트/DB 계정은 변경될 수 있습니다)
 
 ### 1) Backend (Spring Boot)
 ```bash
-cd backend
-./gradlew bootRun
-```
-- DB 설정: `backend/src/main/resources/application.properties`
-- 현재 프로젝트 프로퍼티의 DB URL 예시: `jdbc:oracle:thin:@localhost:1521:xe`
+# Java 21 이상 설치 확인
+java -version
 
-### 2) Frontend (React)
-```bash
-cd frontend
-npm i --legacy-peer-deps
-npm i xlsx
-npm start
+# 소스 파일 컴파일
+javac OmokGame.java
+
+# 게임 실행
+java OmokGame
+
 ```
 ---
 
