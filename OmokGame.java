@@ -35,9 +35,9 @@ public class OmokGame extends JFrame {
     JPanel createButtonPanel() {
         JPanel panel = new JPanel();
 
-        JButton undoBtn = new JButton("⏪ Undo");
-        JButton saveBtn = new JButton("💾 저장");
-        JButton loadBtn = new JButton("📂 불러오기");
+        JButton undoBtn = new JButton("Undo");
+        JButton saveBtn = new JButton("저장");
+        JButton loadBtn = new JButton("불러오기");
 
         undoBtn.addActionListener(e -> undo());
         saveBtn.addActionListener(e -> save());
