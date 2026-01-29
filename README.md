@@ -55,42 +55,16 @@
 | Category       | Tech     | Usage      | Badge                                                                                                                       |
 | -------------- | -------- | ---------- | --------------------------------------------------------------------------------------------------------------------------- |
 | Language       | Java     | Java SE 21 | ![Java 21](https://img.shields.io/badge/Java-21-007396?style=for-the-badge\&logo=openjdk\&logoColor=white)                  |
-| UI Framework   | Swing    | GUI 구성     | ![Swing](https://img.shields.io/badge/Swing-UI-6DB33F?style=for-the-badge\&logo=java\&logoColor=white)                      |
-| Graphics       | AWT      | 도형 및 좌표 처리 | ![AWT](https://img.shields.io/badge/AWT-Graphics-007396?style=for-the-badge\&logo=java\&logoColor=white)                    |
-| Data Structure | Stack    | 수순 관리      | ![Stack](https://img.shields.io/badge/Stack-DataStructure-F7DF1E?style=for-the-badge\&logo=stack-overflow\&logoColor=white) |
-| Persistence    | Java I/O | 파일 저장/불러오기 | ![Java I/O](https://img.shields.io/badge/Java_I/O-Persistence-D32F2F?style=for-the-badge\&logo=java\&logoColor=white)       |
-| AI Logic       | Random   | 랜덤 수 생성    | ![AI](https://img.shields.io/badge/AI-Random-9E9E9E?style=for-the-badge\&logo=brain\&logoColor=white)                       |
+| UI Framework   | Swing    | GUI 구성     | ![Java 21](https://img.shields.io/badge/Java-21-007396?style=for-the-badge\&logo=openjdk\&logoColor=white)                      |
+| Graphics       | AWT      | 도형 및 좌표 처리 | ![Java 21](https://img.shields.io/badge/Java-21-007396?style=for-the-badge\&logo=openjdk\&logoColor=white)                    |
+| Data Structure | Stack    | 수순 관리      | ![Java 21](https://img.shields.io/badge/Java-21-007396?style=for-the-badge\&logo=openjdk\&logoColor=white) |
+| Persistence    | Java I/O | 파일 저장/불러오기 | ![Java 21](https://img.shields.io/badge/Java-21-007396?style=for-the-badge\&logo=openjdk\&logoColor=white)       |
+| AI Logic       | Random   | 랜덤 수 생성    | ![Java 21](https://img.shields.io/badge/Java-21-007396?style=for-the-badge\&logo=openjdk\&logoColor=white)                       |
 
 
 
 ---
 
-### 🔹 Frontend (Web UI)
-> **React/Next 기반 UI + 상태관리 + 반응형 스타일링**  
-> 화면 구성, 컴포넌트 구조화, 전역 상태 관리 및 UX 최적화를 담당합니다.
-
-| Category | Tech | Version / Usage | Badge |
-|---|---|---|---|
-| Markup | HTML5 | Semantic Markup | ![HTML5](https://img.shields.io/badge/HTML5-Markup-E34F26?style=for-the-badge&logo=html5&logoColor=white) |
-| Style | CSS3 | Layout / Responsive | ![CSS3](https://img.shields.io/badge/CSS3-Style-1572B6?style=for-the-badge&logo=css3&logoColor=white) |
-| Language | JavaScript | ES6+ | ![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) |
-| Language | TypeScript | 타입 안정성 / DX 개선 | ![TypeScript](https://img.shields.io/badge/TypeScript-Typed%20JS-3178C6?style=for-the-badge&logo=typescript&logoColor=white) |
-| Library | React | **18** (SPA UI) | ![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=white) |
-| Framework | Next.js | SSR/CSR, Routing | ![Next.js](https://img.shields.io/badge/Next.js-React%20Framework-000000?style=for-the-badge&logo=next.js&logoColor=white) |
-| State | Redux | 전역 상태관리 / Store | ![Redux](https://img.shields.io/badge/Redux-State%20Management-764ABC?style=for-the-badge&logo=redux&logoColor=white) |
-| CSS | Tailwind CSS | Utility CSS | ![Tailwind](https://img.shields.io/badge/Tailwind%20CSS-Utility%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) |
-
----
-
-### 🔹 Database (Persistence)
-> **Oracle 기반 RDB 설계 & 트랜잭션 기반 데이터 운영**  
-> 무결성/정합성을 고려한 테이블 설계, 제약조건 및 관계 모델링을 적용합니다.
-
-| Category | Tech | Usage | Badge |
-|---|---|---|---|
-| RDBMS | Oracle DB | Schema / Relations / Transaction | ![Oracle](https://img.shields.io/badge/Oracle-Database-F80000?style=for-the-badge&logo=oracle&logoColor=white) |
-
----
 
 ### 🔹 Version Control & Collaboration
 > **Git 브랜치 전략 + GitHub PR 중심 협업 프로세스**  
