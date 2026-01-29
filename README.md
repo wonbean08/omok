@@ -9,12 +9,9 @@
 - [프로젝트 설계](#프로젝트-설계)
 - [기술 스펙](#기술-스펙)
 - [주요 기능](#주요-기능)
-- [시스템 아키텍처](#시스템-아키텍처)
-- [API 문서](#api-문서)
 - [실행 방법](#실행-방법)
 - [폴더 구조](#폴더-구조)
-- [Advanced CI CD Pipeline](#advanced-ci-cd-pipeline)
-- [LIMITREE 시연](#limitree-시연)a
+- [오목 게임 시연](#오목 게임-시연)a
 
 ---
 
@@ -112,14 +109,11 @@ java OmokGame
 ---
 
 
-## LIMITREE 시연
+## 오목 게임 시연
 
 
 https://github.com/user-attachments/assets/11e08d8b-5d74-4e24-a142-0c930ff418b2
 
 
-
-## LIMITREE 프레젠테이션
-- [발표자료 보기](_260122.LIMITREE._REV1.pdf)
 
 
