@@ -74,17 +74,22 @@
 ### 2) 무르기(Undo)
 - 버튼 클릭 시 이전 턴 상태로 돌아간다
 
-<img width="200" alt="카테고리 1" src="https://github.com/user-attachments/assets/633e7d28-2869-4548-b1ca-178534a40512" /> <img  width="200" alt="카테고리 2" src="https://github.com/user-attachments/assets/dc6cc66d-b019-4750-81c1-7e7fee41f68f" />
+<img width="1005" height="1135" alt="스크린샷 2026-01-29 180921" src="https://github.com/user-attachments/assets/3a859dff-90a1-44a3-ae3d-7d030b5d3472" />   <img width="1006" height="1136" alt="스크린샷 2026-01-29 180933" src="https://github.com/user-attachments/assets/909df03d-47ab-427c-b360-756083c0536a" />
+
+
 
 ### 3) 저장(Save)
 - 버튼 클릭 시 해당 턴의 정보가 저장된다
 
-<img  width="200" alt="카트 1번" src="https://github.com/user-attachments/assets/57fdcb4b-b2c4-45b4-99a9-2ae86d216dc4" /><img  width="200" alt="카트 2번" src="https://github.com/user-attachments/assets/792dfc9d-eeee-453b-a6f4-7b0a7a877168" />
+<img width="1004" height="1136" alt="스크린샷 2026-01-29 181023" src="https://github.com/user-attachments/assets/ef081cc7-b19e-4133-a4b7-3878e5f64521" />
+
 
 ### 4) 불러오기(Load)
 - 마지막으로 저장했을 때의 게임 정보를 불러온다
 
-<img  width="200" alt="주문 1번" src="https://github.com/user-attachments/assets/d7f3583a-b74c-4e15-8fd2-f913025deebb" /> <img  width="200" alt="주문 2번" src="https://github.com/user-attachments/assets/519750a8-305e-4795-a4bd-566f0c8b5c36" />
+<img width="1007" height="1134" alt="스크린샷 2026-01-29 181051" src="https://github.com/user-attachments/assets/5f1b9ee9-d88a-4981-aa31-1dbc37c307a7" />   <img width="1004" height="1137" alt="스크린샷 2026-01-29 181102" src="https://github.com/user-attachments/assets/9f59da1a-bed6-4b74-8e54-ce7918a1951b" />
+
+
 
 ---
 
