@@ -93,26 +93,11 @@
 
 ---
 
-## 시스템 아키텍처
-```text
-[React (Frontend)]
-        |
-        |  Axios (REST API)
-        v
-[Spring Boot (Backend)]
-        |
-        |  JPA (Repository)
-        v
-[Oracle DB]
-```
-<img width="500" height="1024" alt="아키텍처" src="https://github.com/user-attachments/assets/33e6a9dc-e7e2-4a0d-8789-d9d1946135b4" />
 
----
 
 
 ## 실행 방법
 
-### 1) Backend (Spring Boot)
 ```bash
 # Java 21 이상 설치 확인
 java -version
@@ -126,30 +111,6 @@ java OmokGame
 ```
 ---
 
-## 폴더 구조
-```text
-team_project_Limitree/
-  ├─ backend/          # Spring Boot (REST API)
-  └─ frontend/         # React (UI/UX)
-```
----
-## Advanced CI CD Pipeline
-
-<img width="1536" height="1024" alt="PI" src="https://github.com/user-attachments/assets/04e8ff4d-a72a-4fae-8953-b6794c976824" />
-
-### Pipeline Description
-1. 개발자가 기능 구현 후 GitHub에 Push
-2. GitHub Actions를 통해 CI 파이프라인 자동 실행
-3. Backend(Spring Boot)는 Gradle 기반 빌드 및 테스트 수행
-4. Frontend(React/Next.js)는 빌드 후 정적 리소스 생성
-5. 각 서비스별 Docker Image 생성
-6. Docker Registry로 이미지 Push
-7. 운영 서버에서 최신 이미지 Pull 후 배포
-8. Backend는 Oracle DB와 연동되어 서비스 제공
-
-본 프로젝트는 GitHub Actions 기반 CI/CD 파이프라인을 구축하여
-코드 변경 시 자동 빌드, 테스트, Docker 이미지 생성 및 배포가
-이루어지도록 구성하였습니다.
 
 ## LIMITREE 시연
 https://github.com/user-attachments/assets/a095d075-e0a3-43f2-9e69-42faf59850e7
