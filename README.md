@@ -36,7 +36,8 @@
 
 3. (UML) 유스케이스 다이어그램 - Usecase Diagram 
 
-<img  height="100" alt="1번" src="https://github.com/user-attachments/assets/4358e56a-d3a1-467b-98e0-0862ddfee5b6" /><img height="100" alt="2번" src="https://github.com/user-attachments/assets/ba46b770-c89b-4570-8daa-c2428c2822bd" /><img height="100" alt="3번" src="https://github.com/user-attachments/assets/561dfdb0-2288-4ef5-8993-f04b84da5610" />
+<img width="370" height="253" alt="유즈케이스" src="https://github.com/user-attachments/assets/41a60ad7-089a-47be-8af3-ca87f8116d73" />
+
 
 4. (UML) 시퀀스 다이어그램 - Sequence Diagram 
 
