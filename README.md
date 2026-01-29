@@ -52,14 +52,15 @@
 
 ## 기술 스펙
 
-| Category       | Tech     | Usage      | Badge                                                                                                          |
-| -------------- | -------- | ---------- | -------------------------------------------------------------------------------------------------------------- |
-| Language       | Java     | Java SE    | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="28"/> |
-| UI Framework   | Swing    | GUI 구성     | <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Java_swing_logo.svg" width="28"/>                |
-| Graphics       | AWT      | 도형 및 좌표 처리 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="28"/> |
-| Data Structure | Stack    | 수순 관리      | <img src="https://www.svgrepo.com/show/374111/stack.svg" width="28"/>                                          |
-| Persistence    | Java I/O | 파일 저장/불러오기 | <img src="https://www.svgrepo.com/show/354387/file.svg" width="28"/>                                           |
-| AI Logic       | Random   | 랜덤 수 생성    | <img src="https://www.svgrepo.com/show/354259/brain.svg" width="28"/>                                          |
+| Category       | Tech     | Usage      | Badge                                                                                                                       |
+| -------------- | -------- | ---------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Language       | Java     | Java SE 21 | ![Java 21](https://img.shields.io/badge/Java-21-007396?style=for-the-badge\&logo=openjdk\&logoColor=white)                  |
+| UI Framework   | Swing    | GUI 구성     | ![Swing](https://img.shields.io/badge/Swing-UI-6DB33F?style=for-the-badge\&logo=java\&logoColor=white)                      |
+| Graphics       | AWT      | 도형 및 좌표 처리 | ![AWT](https://img.shields.io/badge/AWT-Graphics-007396?style=for-the-badge\&logo=java\&logoColor=white)                    |
+| Data Structure | Stack    | 수순 관리      | ![Stack](https://img.shields.io/badge/Stack-DataStructure-F7DF1E?style=for-the-badge\&logo=stack-overflow\&logoColor=white) |
+| Persistence    | Java I/O | 파일 저장/불러오기 | ![Java I/O](https://img.shields.io/badge/Java_I/O-Persistence-D32F2F?style=for-the-badge\&logo=java\&logoColor=white)       |
+| AI Logic       | Random   | 랜덤 수 생성    | ![AI](https://img.shields.io/badge/AI-Random-9E9E9E?style=for-the-badge\&logo=brain\&logoColor=white)                       |
+
 
 
 ---
