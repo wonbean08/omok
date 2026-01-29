@@ -62,84 +62,29 @@
 | AI Logic       | Random   | 랜덤 수 생성    | ![Java 21](https://img.shields.io/badge/Java-21-007396?style=for-the-badge\&logo=openjdk\&logoColor=white)                       |
 
 
-
----
-
-
-### 🔹 Version Control & Collaboration
-> **Git 브랜치 전략 + GitHub PR 중심 협업 프로세스**  
-> 이슈 단위 작업 → PR → 리뷰 → 머지 흐름으로 품질을 관리합니다.
-
-| Category | Tech | Usage | Badge |
-|---|---|---|---|
-| VCS | Git | Branch / Merge / Tag | ![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white) |
-| Platform | GitHub | PR / Review / Issue | ![GitHub](https://img.shields.io/badge/GitHub-Collaboration-181717?style=for-the-badge&logo=github&logoColor=white) |
-
----
-
-## CI/CD & Infra
-
-### 🔹 CI/CD Pipeline (GitHub Actions)
-> **Push → Test → Build → Docker Image → Registry Push → Deploy**  
-> 변경사항이 GitHub에 Push 되면 Actions가 자동으로 실행되어 빌드/테스트 후 이미지 배포까지 자동화합니다.
-
-| Category | Tech | Usage | Badge |
-|---|---|---|---|
-| CI/CD | GitHub Actions | 자동 빌드/테스트/배포 | ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white) |
-| Container | Docker | 서비스별 이미지 패키징 | ![Docker](https://img.shields.io/badge/Docker-Container-2496ED?style=for-the-badge&logo=docker&logoColor=white) |
-| Orchestration | Docker Compose | 멀티 컨테이너 배포 | ![Docker Compose](https://img.shields.io/badge/Docker%20Compose-Orchestration-2496ED?style=for-the-badge&logo=docker&logoColor=white) |
-| Web Server | Nginx | Reverse Proxy / Routing | ![Nginx](https://img.shields.io/badge/Nginx-Reverse%20Proxy-009639?style=for-the-badge&logo=nginx&logoColor=white) |
-| Registry | Docker Registry | 이미지 저장/배포 | ![Docker](https://img.shields.io/badge/Docker%20Registry-Image%20Store-2496ED?style=for-the-badge&logo=docker&logoColor=white) |
-
 ---
 
 ## 주요 기능
-### 1) 상품(Product)
-- 상품 목록/상세 조회, 정렬/필터 UX 연동
-- 관리자 상품 관리(도메인 분리)
+### 1) 돌 놓기
+- 사용자가 클릭한 위치의 좌표에 검은 돌을 놓고 랜덤한 좌표에 흰색 돌을 놓는다
 
-<img width="200"  alt="제품" src="https://github.com/user-attachments/assets/477db911-da10-4693-bcc9-5d14fa2da921" /> <img width="200" alt="제품 2" src="https://github.com/user-attachments/assets/34975af9-54cc-4c2a-8ae4-a149dbb7d752" /> <img width="200" alt="제품 3" src="https://github.com/user-attachments/assets/682c8d7d-4252-41f4-8718-79c95f6c4536" />
+<img width="200" alt="스크린샷 2026-01-29 173521" src="https://github.com/user-attachments/assets/b19ee556-8e04-4580-8099-8795382d1dae" />
 
-### 2) 카테고리(Category)
-- 카테고리 트리 제공 → 네비게이션/필터에 바로 사용
+
+### 2) 무르기(Undo)
+- 버튼 클릭 시 이전 턴 상태로 돌아간다
 
 <img width="200" alt="카테고리 1" src="https://github.com/user-attachments/assets/633e7d28-2869-4548-b1ca-178534a40512" /> <img  width="200" alt="카테고리 2" src="https://github.com/user-attachments/assets/dc6cc66d-b019-4750-81c1-7e7fee41f68f" />
 
-### 3) 장바구니(Cart)
-- 장바구니 담기/수량 변경/삭제
-- 사용자별 장바구니 관리
+### 3) 저장(Save)
+- 버튼 클릭 시 해당 턴의 정보가 저장된다
 
 <img  width="200" alt="카트 1번" src="https://github.com/user-attachments/assets/57fdcb4b-b2c4-45b4-99a9-2ae86d216dc4" /><img  width="200" alt="카트 2번" src="https://github.com/user-attachments/assets/792dfc9d-eeee-453b-a6f4-7b0a7a877168" />
 
-### 4) 주문(Order)
-- 주문 생성/조회 (주문-주문아이템 구조 기반)
-- 주문 완료 화면 UX(새로고침 데이터 유지 등) 고려
+### 4) 불러오기(Load)
+- 마지막으로 저장했을 때의 게임 정보를 불러온다
 
 <img  width="200" alt="주문 1번" src="https://github.com/user-attachments/assets/d7f3583a-b74c-4e15-8fd2-f913025deebb" /> <img  width="200" alt="주문 2번" src="https://github.com/user-attachments/assets/519750a8-305e-4795-a4bd-566f0c8b5c36" />
-
-### 5) 리뷰(Review)
-- 리뷰 조회/작성(UGC), 관리자 삭제/관리 분리
-
-<img  width="200" alt="리뷰 1번" src="https://github.com/user-attachments/assets/c5d4a3f0-5c35-470e-be7c-e204b91aa515" /><img  width="200" alt="리뷰 2번" src="https://github.com/user-attachments/assets/7aad97d1-b9b4-4f20-afc5-cbda4742a353" />
-
-### 6) 회원(User / Auth)
-- 일반 로그인 + 소셜 로그인(카카오 엔드포인트 분리)
-- 토큰 인증 기반 보호(만료 대응 포함)
-
-<img  width="200" alt="로그인" src="https://github.com/user-attachments/assets/85540f60-d7f4-4d6d-b666-282a23a27766" /><img  width="200" alt="회원가입" src="https://github.com/user-attachments/assets/7534e980-2f07-4e67-8606-e02f5a538c11" />
-<img  width="200" alt="내정보 1" src="https://github.com/user-attachments/assets/ec4ddc02-c226-4b30-a0aa-00a1903afe4b" /><img  width="200" alt="내정보 2" src="https://github.com/user-attachments/assets/8b09d579-c5b1-4ea6-a0b0-48bf73cee6de" /><img  width="200" alt="내정보 3" src="https://github.com/user-attachments/assets/424cfdf6-ea79-4723-b1d2-21a716fbfb50" />
-
-### 7) 위시리스트(Wishlist)
-- 관심 상품 저장/조회/삭제
-- 중복 저장 이슈 방지(프론트-백 계약 중요)
-
-<img  width="200" alt="위시리스트" src="https://github.com/user-attachments/assets/cc8d3bb8-3275-4d61-99d0-2fb3c034937c" />
-
-### 8) 비교(Compare)
-- 비교 목록 관리
-- 중복 체크/카운트 제공 → UI 배지/카운트에 활용
-
-<img  width="200" alt="비교" src="https://github.com/user-attachments/assets/fbf0d61a-bb1f-4adc-b17c-aa608bf86b4b" />
 
 ---
 
@@ -159,13 +104,6 @@
 
 ---
 
-## API 문서
-- Swagger UI(OpenAPI): `springdoc-openapi-starter-webmvc-ui` 사용  
-  > 실행 후 `/swagger-ui` 혹은 프로젝트 설정에 맞는 경로에서 확인
-
-<img width="500" height="1681" alt="스웨거" src="https://github.com/user-attachments/assets/1503233a-127a-4b71-a4bb-2dbbe934a212" />
-
----
 
 ## 실행 방법
 > 로컬 개발 기준 (환경에 따라 포트/DB 계정은 변경될 수 있습니다)
