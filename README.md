@@ -46,15 +46,8 @@
 
 5. (UML) 클래스 다이어그램 - Class Diagram 
 
-<img width="250"  alt="4번" src="https://github.com/user-attachments/assets/b7431192-a567-4e1b-9cf5-b2d37f461bd0" /><img width="250"  alt="5번" src="https://github.com/user-attachments/assets/ad1ff722-eb5f-4853-92e0-8c65adf3dd78" />
+<img width="213" height="318" alt="클래스다이어그램" src="https://github.com/user-attachments/assets/e5b55a8b-182b-44d1-8a18-eeea7ee204ca" />
 
-6. ERD Diagram 
-
-### 데이터베이스 (ERD Diagram) 
-1. logical
-![limitree-logical](https://github.com/user-attachments/assets/65939dbd-a96e-4a1b-bbff-80f5c5d8b685)
-2. physical.jpg
-<img width="1214" height="627" alt="limitree-physical" src="https://github.com/user-attachments/assets/54ee9cee-91f8-40e6-b4ad-eed218c80821" />
 
 ## 기술 스펙
 
