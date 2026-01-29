@@ -41,7 +41,8 @@
 
 4. (UML) 시퀀스 다이어그램 - Sequence Diagram 
 
-  <img width="200" alt="1번" src="https://github.com/user-attachments/assets/b63210a6-daab-4688-b32f-c34f5f210cf3" /><img width="200"  alt="2번" src="https://github.com/user-attachments/assets/51c5a9df-0ae7-4a69-99a1-cf66d1ec2cad" /><img width="200"  alt="3번" src="https://github.com/user-attachments/assets/dddd6110-9d96-4dec-9c1e-842a6a7b33ca" />
+<img width="217" height="315" alt="시퀀스" src="https://github.com/user-attachments/assets/1c35508c-c1dd-450c-884e-5e68df614222" />
+
 
 5. (UML) 클래스 다이어그램 - Class Diagram 
 
