@@ -74,20 +74,20 @@
 ### 2) 무르기(Undo)
 - 버튼 클릭 시 이전 턴 상태로 돌아간다
 
-<img width="1005" height="1135" alt="스크린샷 2026-01-29 180921" src="https://github.com/user-attachments/assets/3a859dff-90a1-44a3-ae3d-7d030b5d3472" />   <img width="1006" height="1136" alt="스크린샷 2026-01-29 180933" src="https://github.com/user-attachments/assets/909df03d-47ab-427c-b360-756083c0536a" />
+<img width="200" alt="스크린샷 2026-01-29 180921" src="https://github.com/user-attachments/assets/3a859dff-90a1-44a3-ae3d-7d030b5d3472" />   <img width="200" alt="스크린샷 2026-01-29 180933" src="https://github.com/user-attachments/assets/909df03d-47ab-427c-b360-756083c0536a" />
 
 
 
 ### 3) 저장(Save)
 - 버튼 클릭 시 해당 턴의 정보가 저장된다
 
-<img width="1004" height="1136" alt="스크린샷 2026-01-29 181023" src="https://github.com/user-attachments/assets/ef081cc7-b19e-4133-a4b7-3878e5f64521" />
+<img width="200" alt="스크린샷 2026-01-29 181023" src="https://github.com/user-attachments/assets/ef081cc7-b19e-4133-a4b7-3878e5f64521" />
 
 
 ### 4) 불러오기(Load)
 - 마지막으로 저장했을 때의 게임 정보를 불러온다
 
-<img width="1007" height="1134" alt="스크린샷 2026-01-29 181051" src="https://github.com/user-attachments/assets/5f1b9ee9-d88a-4981-aa31-1dbc37c307a7" />   <img width="1004" height="1137" alt="스크린샷 2026-01-29 181102" src="https://github.com/user-attachments/assets/9f59da1a-bed6-4b74-8e54-ce7918a1951b" />
+<img width="200" alt="스크린샷 2026-01-29 181051" src="https://github.com/user-attachments/assets/5f1b9ee9-d88a-4981-aa31-1dbc37c307a7" />   <img width="200" alt="스크린샷 2026-01-29 181102" src="https://github.com/user-attachments/assets/9f59da1a-bed6-4b74-8e54-ce7918a1951b" />
 
 
 
