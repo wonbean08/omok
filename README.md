@@ -32,7 +32,7 @@
 
 2. 화면 정의서 (Wireframe / 화면설계서)
 
-<img width="150" alt="스크린샷 2026-01-29 173521" src="https://github.com/user-attachments/assets/fb7b3eaa-828e-4886-a04b-35603dfc90d7" /><img width="150" alt="스크린샷 2026-01-29 173548" src="https://github.com/user-attachments/assets/8c50ba51-dbb7-4c65-b985-4fe93b9393a8" /><img width="150" alt="스크린샷 2026-01-29 173603" src="https://github.com/user-attachments/assets/31e76c98-e1cd-4b14-a28a-0639fc6b4bed" />
+<img width="150" alt="스크린샷 2026-01-29 173521" src="https://github.com/user-attachments/assets/fb7b3eaa-828e-4886-a04b-35603dfc90d7" />   <img width="150" alt="스크린샷 2026-01-29 173548" src="https://github.com/user-attachments/assets/8c50ba51-dbb7-4c65-b985-4fe93b9393a8" />   <img width="150" alt="스크린샷 2026-01-29 173603" src="https://github.com/user-attachments/assets/31e76c98-e1cd-4b14-a28a-0639fc6b4bed" />
 
 
 3. (UML) 유스케이스 다이어그램 - Usecase Diagram 
