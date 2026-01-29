@@ -52,20 +52,15 @@
 
 ## 기술 스펙
 
-### 🔹 Backend (API & Core Service)
-> **비즈니스 로직 / 인증·인가 / 데이터 접근 계층 중심**  
-> REST API 제공, Spring Security로 인증/인가 처리, JPA로 DB 연동을 담당합니다.
+| Category       | Tech     | Usage      | Badge                                                                                                          |
+| -------------- | -------- | ---------- | -------------------------------------------------------------------------------------------------------------- |
+| Language       | Java     | Java SE    | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="28"/> |
+| UI Framework   | Swing    | GUI 구성     | <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Java_swing_logo.svg" width="28"/>                |
+| Graphics       | AWT      | 도형 및 좌표 처리 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="28"/> |
+| Data Structure | Stack    | 수순 관리      | <img src="https://www.svgrepo.com/show/374111/stack.svg" width="28"/>                                          |
+| Persistence    | Java I/O | 파일 저장/불러오기 | <img src="https://www.svgrepo.com/show/354387/file.svg" width="28"/>                                           |
+| AI Logic       | Random   | 랜덤 수 생성    | <img src="https://www.svgrepo.com/show/354259/brain.svg" width="28"/>                                          |
 
-| Category | Tech | Version / Usage | Badge |
-|---|---|---|---|
-| Language | Java | **Java 21 (LTS)** | ![Java](https://img.shields.io/badge/Java-21-007396?style=for-the-badge&logo=java&logoColor=white) |
-| Framework | Spring Framework | Core / DI / AOP | ![Spring](https://img.shields.io/badge/Spring-Framework-6DB33F?style=for-the-badge&logo=spring&logoColor=white) |
-| Framework | Spring Boot | **3.4.4** (API Server) | ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.4.4-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) |
-| Security | Spring Security | 인증/인가, Filter 기반 보호 | ![Spring Security](https://img.shields.io/badge/Spring%20Security-Auth%2FAuthorization-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white) |
-| ORM | JPA | Entity 설계 / 연관관계 매핑 | ![JPA](https://img.shields.io/badge/JPA-ORM-59666C?style=for-the-badge&logo=hibernate&logoColor=white) |
-| ORM | Hibernate | JPA Provider / Lazy Loading | ![Hibernate](https://img.shields.io/badge/Hibernate-JPA%20Provider-59666C?style=for-the-badge&logo=hibernate&logoColor=white) |
-| Runtime | Node.js | **18** (서브 API/연동 서비스) | ![Node.js](https://img.shields.io/badge/Node.js-18-339933?style=for-the-badge&logo=node.js&logoColor=white) |
-| Framework | Express | 라우팅/미들웨어 기반 API | ![Express](https://img.shields.io/badge/Express-Node%20Framework-000000?style=for-the-badge&logo=express&logoColor=white) |
 
 ---
 
