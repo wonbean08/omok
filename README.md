@@ -113,7 +113,11 @@ java OmokGame
 
 
 ## LIMITREE 시연
-https://github.com/user-attachments/assets/a095d075-e0a3-43f2-9e69-42faf59850e7
+
+
+https://github.com/user-attachments/assets/11e08d8b-5d74-4e24-a142-0c930ff418b2
+
+
 
 ## LIMITREE 프레젠테이션
 - [발표자료 보기](_260122.LIMITREE._REV1.pdf)
