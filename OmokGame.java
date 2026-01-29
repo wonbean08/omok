@@ -65,7 +65,7 @@ public class OmokGame extends JFrame {
                 new FileOutputStream("omok.save"))) {
             oos.writeObject(board);
             oos.writeObject(history);
-            JOptionPane.showMessageDialog(this, "저장 완료!");
+            JOptionPane.showMessageDialog(this, "저장 완료");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -77,10 +77,16 @@ public class OmokGame extends JFrame {
             board = (int[][]) ois.readObject();
             history = (Stack<Point>) ois.readObject();
             repaint();
-            JOptionPane.showMessageDialog(this, "불러오기 완료!");
+            JOptionPane.showMessageDialog(this, "불러오기 완료");
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    void resetGame() {
+        board = new int[SIZE][SIZE];
+        history.clear();
+        repaint();
     }
 
     void aiMove() {
@@ -98,6 +104,40 @@ public class OmokGame extends JFrame {
         Point p = empty.get(random.nextInt(empty.size()));
         board[p.x][p.y] = 2;
         history.push(p);
+
+        if (checkWin(p.x, p.y, 2)) {
+            JOptionPane.showMessageDialog(this, "AI (백돌) 승리");
+            resetGame();
+        }
+    }
+
+    boolean checkWin(int r, int c, int color) {
+        int[][] dirs = {
+                {0, 1},   // 가로
+                {1, 0},   // 세로
+                {1, 1},   // 대각선 \
+                {1, -1}   // 대각선 /
+        };
+
+        for (int[] d : dirs) {
+            int count = 1;
+            count += countDir(r, c, d[0], d[1], color);
+            count += countDir(r, c, -d[0], -d[1], color);
+            if (count >= 5) return true;
+        }
+        return false;
+    }
+
+    int countDir(int r, int c, int dr, int dc, int color) {
+        int cnt = 0;
+        int nr = r + dr;
+        int nc = c + dc;
+        while (nr >= 0 && nr < SIZE && nc >= 0 && nc < SIZE && board[nr][nc] == color) {
+            cnt++;
+            nr += dr;
+            nc += dc;
+        }
+        return cnt;
     }
 
     class BoardPanel extends JPanel {
@@ -107,7 +147,6 @@ public class OmokGame extends JFrame {
                 @Override
                 public void mouseClicked(MouseEvent e) {
 
-                    // 🔥 핵심 수정 포인트
                     int col = Math.round((e.getX() - MARGIN) / (float) CELL);
                     int row = Math.round((e.getY() - MARGIN) / (float) CELL);
 
@@ -116,13 +155,19 @@ public class OmokGame extends JFrame {
 
                     if (board[row][col] != 0) return;
 
-                    // 검은돌 (플레이어)
+                    // 플레이어 (검은돌)
                     board[row][col] = 1;
                     history.push(new Point(row, col));
 
-                    // 흰돌 (AI)
-                    aiMove();
+                    if (checkWin(row, col, 1)) {
+                        repaint();
+                        JOptionPane.showMessageDialog(null, "플레이어 승리");
+                        resetGame();
+                        return;
+                    }
 
+                    // AI 차례
+                    aiMove();
                     repaint();
                 }
             });
@@ -148,7 +193,7 @@ public class OmokGame extends JFrame {
                 );
             }
 
-            // 돌 그리기
+            // 돌
             for (int i = 0; i < SIZE; i++) {
                 for (int j = 0; j < SIZE; j++) {
                     if (board[i][j] != 0) {
